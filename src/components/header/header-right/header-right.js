@@ -2,13 +2,12 @@ import React from 'react';
 import "./header-right.css"
 import NavElement from './nav-element/nav-element'
 const Headerright = () => {
-  return (
-    <div className='nav'>
-        <NavElement/>
-        <NavElement/>
-        <NavElement/>
+  const navList = [ {text:'Home'},{text:'About'},{text:'Recent'}];
 
-    </div>
+  return (
+    <ul className='nav'>
+        {navList.map((item) => <NavElement text={item.text} />)}
+    </ul>
   )
 }
 

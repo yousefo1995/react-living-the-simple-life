@@ -1,11 +1,12 @@
 import React from 'react'
 import './nav-element.css'
 
-const NavElement = () => {
+const NavElement = (props) => {
+  console.log(props.text,'text')
   return (
-    <div className='nav-component'>
-      <a href="#">Home</a>
-    </div>
+    <li className="nav-component">
+      <a href="#">{props.text}</a>
+    </li>
   )
 } 
  
