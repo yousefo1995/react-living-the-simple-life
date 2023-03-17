@@ -1,0 +1,35 @@
+
+/* font-family: "Ubuntu", sans-serif */
+/* font-family: "Lora", serif; */
+
+/* body{
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+} */
+img{
+  max-width: 100%;
+  display: block;
+}
+
+h1,h2,h3{
+  font-family: "Lora", serif;
+  font-weight: 400;
+  color: #143774;
+  margin-top: 0;
+}
+h1{
+  font-size: 2rem;
+  margin: 0;
+}
+a{
+  color: #1792D2;
+}
+a:hover,
+a:focus {
+  color: #143774;
+}
+strong{
+  font-weight: bold;
+}

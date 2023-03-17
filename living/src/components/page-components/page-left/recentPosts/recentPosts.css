@@ -1,0 +1,12 @@
+.recent-articles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+.recent-articles-main{
+    width: 68%;
+}
+.recent-articles-secondry{
+    width: 30%;
+}

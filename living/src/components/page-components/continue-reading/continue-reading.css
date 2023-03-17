@@ -1,0 +1,14 @@
+.continue-reading{
+    color: #1792D2;
+    font-size: 0.875rem;
+    font-weight: bold;
+    text-decoration: none;
+ }
+ 
+ .continue-reading:hover,
+ .continue-reading:focus {
+     color: #143774;
+     text-decoration: underline;
+  }
+ 
+  

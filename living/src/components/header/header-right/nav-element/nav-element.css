@@ -1,0 +1,19 @@
+.nav-component{
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.25em 0 ;
+    margin-left: 2em;
+
+
+}
+.nav-component a{
+  text-decoration: none;
+  color: #707070;
+} 
+.nav-component a:hover,
+.nav-component a:focus{
+color: #1792D2;
+  
+}
+
+
